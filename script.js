@@ -30,7 +30,7 @@ class Node {
         endNode = node;
         cell.style.backgroundColor = "#ff0000"; // Color for the end node
       }else{
-      cell.addEventListener("mousedown",()=> toggleWall(node, cell));
+      cell.addEventListener("mouseover",()=> toggleWall(node, cell));
       }
       container.appendChild(cell);
       currentRow.push(node);
