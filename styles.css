@@ -1,0 +1,17 @@
+#grid-container {
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    gap: 1px;
+    border: 1px solid #3a3232;
+  }
+  
+  .grid-cell {
+    background-color: #fff;
+    border: 1px solid green;
+  }
+  
+  #start-btn, #reset-btn {
+    margin-top: 10px;
+  }
